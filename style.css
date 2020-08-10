@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card1,.card2,.card3{
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 20px;
+    height: 400px;
+}
+img{
+    width: 60%;
+}
+
+.card1{
+    box-shadow: 2px 2px 2px red;
+    border-top: 5px solid red;
+    border-left: 20px solid red;
+}
+.card2{
+    box-shadow: 2px 2px 2px orange;
+    border-top: 5px solid orange;
+    border-left: 20px solid orange;
+}
+.card3{
+    box-shadow: 2px 2px 2px darkred;
+    border-top: 5px solid darkred;
+    border-left: 20px solid darkred;
+}
